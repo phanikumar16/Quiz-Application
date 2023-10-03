@@ -198,7 +198,7 @@ public class Quiz extends JFrame implements ActionListener {
 
             for (int i = 0; i < useranswers.length; i++) {
                 if (useranswers[i][0].equals(answers[i][1])) {
-                    score += 10;
+                    score += 1;
                 } else {
                     score += 0;
                 }
